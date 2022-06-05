@@ -1,4 +1,42 @@
 .nav-link {
     color: rgb(101, 93, 93);
     font-family: sans-serif;
+    font-size: 85%;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+
+.btn-light {
+    color: rgb(101, 93, 93);
+    font-family: sans-serif;
+    font-size: 85%;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0);
+    padding-left: 15px;
+    border-color: rgba(255, 255, 255, 0);
+}
+
+.btn-light:hover {
+    color: red;
+}
+
+.dropdown-menu {
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0);
+    padding-left: 15px;
+}
+
+.dropdown-item {
+    color: rgb(101, 93, 93);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+.dropdown-item:hover {
+    color: red;
+    background-color: rgba(255, 255, 255, 0)
 }
