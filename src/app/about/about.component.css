@@ -1,0 +1,32 @@
+#encabezado-carlos {
+    font-family: 'americana-bold';
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+a {
+    color: black;
+}
+
+.descripcion {
+    font-family: 'americana-bold';
+    text-align: justify;
+    font-size: 20px;
+    color: black;
+}
+
+#fijado {
+    position: sticky;
+    top: 0px;
+    margin-bottom: -70px;
+}
+
+#gitimage {
+    position: sticky;
+    bottom: 0px;
+}
+
+#frase {
+    font-family: 'americana-bold';
+    font-size: 50px;
+}
