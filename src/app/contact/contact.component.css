@@ -34,8 +34,59 @@ a {
 
 input {
     background-color: rgba(255, 255, 255, 0);
+    
+}
+
+input:hover {
+    background-color: #ffffff;
+}
+
+input:focus {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 0rem rgb(211 212 213 / 50%);
 }
 
 textarea {
     background-color: rgba(255, 255, 255, 0);
+}
+
+textarea:hover {
+    background-color: #ffffff;
+}
+
+textarea:focus {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 0rem rgb(211 212 213 / 50%);
+}
+
+
+.form-control {
+    border-top-color: black;
+    border-bottom-color: black;
+    border-left-color: black;
+    border-right-color: black;
+    border-radius: 0rem;
+}
+
+.row-form {
+    --bs-gutter-x: 0rem;
+}
+
+.btn-primary {
+    background-color: black;
+    border-color: black;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+}
+
+.btn-primary:hover {
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0);
+    color: black;
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 0rem rgb(211 212 213 / 50%);
 }
