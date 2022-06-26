@@ -1,0 +1,59 @@
+#encabezado-carlos {
+    font-family: 'americana-bold';
+    font-size: 3vw;
+
+}
+
+a {
+    color: black;
+    text-decoration-line: none;
+}
+
+p {
+    font-family: 'americana-bold';
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+#fijado {
+    position: sticky;
+    top: 0px;
+    background-color: #fafbe8;
+}
+
+#gitimage {
+    position: sticky;
+    bottom: 0px;
+}
+
+#frase {
+    font-family: 'americana-bold';
+    font-size: 50px;
+}
+
+/* Estilos de la galeria */
+img{
+	max-width: 100%;
+}
+
+.gallery{
+	padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+.gallery img{
+	background-color: #ffffff;
+	padding: 0px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+#gallery-modal .modal-img{
+	width: 100%;
+}
+
+.gallery-item {
+    margin-bottom: 1vw;
+}
