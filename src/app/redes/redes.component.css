@@ -1,0 +1,56 @@
+#encabezado-carlos {
+    font-family: 'americana-bold';
+    font-size: 3vw;
+
+}
+
+a {
+    color: black;
+    text-decoration-line: none;
+}
+
+p {
+    font-family: 'americana-bold';
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+#fijado {
+    position: sticky;
+    top: 0px;
+    background-color: #fafbe8;
+}
+
+#gitimage {
+    position: sticky;
+    bottom: 0px;
+}
+
+#portada {
+    width: 600px;
+    height: 480px;
+}
+
+.texto {
+    font-family: 'americana-bold';
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+}
+
+#remarcado {
+    font-weight: bold;
+}
+
+#espacio-top {
+    margin-top: 10rem;
+}
+
+#descuadrada {
+    align-items: bottom;
+}
+
+.gallery-item {
+    margin-bottom: 1vw;
+}
