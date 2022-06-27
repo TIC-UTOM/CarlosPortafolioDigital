@@ -6,3 +6,8 @@ document.addEventListener("click",function (e){
           myModal.show();
     }
 })
+
+function color_marron() {
+    const color = document.getElementById("body");
+    color.style.backgroundColor = "#c29d40";
+}
