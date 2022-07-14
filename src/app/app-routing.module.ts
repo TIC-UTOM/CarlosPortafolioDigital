@@ -226,8 +226,8 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'page/reddit/page/redes',
-    redirectTo: 'page/redes',
+    path: 'page/reddit/page/webs',
+    redirectTo: 'page/webs',
     pathMatch: 'full'
   },
   {
@@ -272,8 +272,8 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'page/redes/page/redes',
-    redirectTo: 'page/redes',
+    path: 'page/redes/page/webs',
+    redirectTo: 'page/webs',
     pathMatch: 'full'
   },
   {
@@ -318,8 +318,8 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'page/prototipos/page/redes',
-    redirectTo: 'page/redes',
+    path: 'page/prototipos/page/webs',
+    redirectTo: 'page/webs',
     pathMatch: 'full'
   },
   {
@@ -364,8 +364,8 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'page/webs/page/redes',
-    redirectTo: 'page/redes',
+    path: 'page/webs/page/webs',
+    redirectTo: 'page/webs',
     pathMatch: 'full'
   },
   {
@@ -410,8 +410,8 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'page/escritorio/page/redes',
-    redirectTo: 'page/redes',
+    path: 'page/escritorio/page/webs',
+    redirectTo: 'page/webs',
     pathMatch: 'full'
   },
   {
@@ -456,8 +456,8 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'page/robotics/page/redes',
-    redirectTo: 'page/redes',
+    path: 'page/robotics/page/webs',
+    redirectTo: 'page/webs',
     pathMatch: 'full'
   },
   {
