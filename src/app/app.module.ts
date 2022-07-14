@@ -15,6 +15,7 @@ import { PrototipoComponent } from './prototipo/prototipo.component';
 import { WebsComponent } from './webs/webs.component';
 import { EscritorioComponent } from './escritorio/escritorio.component';
 import { RoboticsComponent } from './robotics/robotics.component';
+import { TinkercadComponent } from './tinkercad/tinkercad.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { RoboticsComponent } from './robotics/robotics.component';
     PrototipoComponent,
     WebsComponent,
     EscritorioComponent,
-    RoboticsComponent
+    RoboticsComponent,
+    TinkercadComponent
   ],
   imports: [
     BrowserModule,

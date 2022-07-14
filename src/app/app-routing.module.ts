@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
@@ -12,6 +12,7 @@ import { PrototipoComponent } from './prototipo/prototipo.component';
 import { WebsComponent } from './webs/webs.component';
 import { EscritorioComponent } from './escritorio/escritorio.component';
 import { RoboticsComponent } from './robotics/robotics.component';
+import { TinkercadComponent } from './tinkercad/tinkercad.component';
 
 
 const routes: Routes = [
@@ -55,6 +56,10 @@ const routes: Routes = [
   {
     path: 'page/robotics',
     component: RoboticsComponent
+  },
+  {
+    path: 'page/tinkercad',
+    component: TinkercadComponent
   },
   // Redirecciones de about
   {
@@ -102,6 +107,11 @@ const routes: Routes = [
     redirectTo: 'page/robotics',
     pathMatch: 'full' 
   },
+  {
+    path: 'about/page/tinkercad',
+    redirectTo: 'page/tinkercad',
+    pathMatch: 'full'
+  },
   // Redirecciones de contact
   {
     path: 'contact/about',
@@ -146,6 +156,11 @@ const routes: Routes = [
   {
     path: 'contact/page/robotics',
     redirectTo: 'page/robotics',
+    pathMatch: 'full' 
+  },
+  {
+    path: 'contact/page/tinkercad',
+    redirectTo: 'page/tinkercad',
     pathMatch: 'full' 
   },
   //Redirecciones de design
@@ -194,6 +209,11 @@ const routes: Routes = [
     redirectTo: 'page/robotics',
     pathMatch: 'full' 
   },
+  {
+    path: 'design/page/tinkercad',
+    redirectTo: 'page/tinkercad',
+    pathMatch: 'full' 
+  },
   // Redirecciones de la pagina Reddit
   {
     path: 'page/reddit/about',
@@ -238,6 +258,11 @@ const routes: Routes = [
   {
     path: 'page/reddit/page/robotics',
     redirectTo: 'page/robotics',
+    pathMatch: 'full'
+  },
+  {
+    path: 'page/reddit/page/tinkercad',
+    redirectTo: 'page/tinkercad',
     pathMatch: 'full'
   },
   //Redireccion de pagina redes
@@ -286,6 +311,11 @@ const routes: Routes = [
     redirectTo: 'page/robotics',
     pathMatch: 'full'
   },
+  {
+    path: 'page/redes/page/tinkercad',
+    redirectTo: 'page/tinkercad',
+    pathMatch: 'full'
+  },
   //Redireccion de pagina prototipos
   {
     path: 'page/prototipos/about',
@@ -330,6 +360,11 @@ const routes: Routes = [
   {
     path: 'page/prototipos/page/robotics',
     redirectTo: 'page/robotics',
+    pathMatch: 'full'
+  },
+  {
+    path: 'page/prototipos/page/tinkercad',
+    redirectTo: 'page/tinkercad',
     pathMatch: 'full'
   },
   //Redireccion de pagina webs
@@ -378,6 +413,11 @@ const routes: Routes = [
     redirectTo: 'page/robotics',
     pathMatch: 'full'
   },
+  {
+    path: 'page/webs/page/tinkercad',
+    redirectTo: 'page/tinkercad',
+    pathMatch: 'full'
+  },
   //Redirecciones de pagina escritorio
   {
     path: 'page/escritorio/about',
@@ -424,6 +464,11 @@ const routes: Routes = [
     redirectTo: 'page/robotics',
     pathMatch: 'full'
   },
+  {
+    path: 'page/escritorio/page/tinkercad',
+    redirectTo: 'page/tinkercad',
+    pathMatch: 'full'
+  },
   //Redirecciones de pagina robotics
   {
     path: 'page/robotics/about',
@@ -468,6 +513,62 @@ const routes: Routes = [
   {
     path: 'page/robotics/page/robotics',
     redirectTo: 'page/robotics',
+    pathMatch: 'full'
+  },
+  {
+    path: 'page/robotics/page/tinkercad',
+    redirectTo: 'page/tinkercad',
+    pathMatch: 'full'
+  },
+  //Redirecciones de pagina tinkercad
+  {
+    path: 'page/tinkercad/about',
+    redirectTo: 'about',
+    pathMatch: 'full'
+  },
+  {
+    path: 'page/tinkercad/contact',
+    redirectTo: 'contact',
+    pathMatch: 'full'
+  },
+  {
+    path: 'page/tinkercad/design',
+    redirectTo: 'design',
+    pathMatch: 'full'
+  },
+  {
+    path: 'page/tinkercad/page/reddit',
+    redirectTo: 'page/reddit',
+    pathMatch: 'full'
+  },
+  {
+    path: 'page/tinkercad/page/redes',
+    redirectTo: 'page/redes',
+    pathMatch: 'full'
+  },
+  {
+    path: 'page/tinkercad/page/prototipos',
+    redirectTo: 'page/prototipos',
+    pathMatch: 'full'
+  },
+  {
+    path: 'page/tinkercad/page/webs',
+    redirectTo: 'page/webs',
+    pathMatch: 'full'
+  },
+  {
+    path: 'page/tinkercad/page/escritorio',
+    redirectTo: 'page/escritorio',
+    pathMatch: 'full'
+  },
+  {
+    path: 'page/tinkercad/page/robotics',
+    redirectTo: 'page/robotics',
+    pathMatch: 'full'
+  },
+  {
+    path: 'page/tinkercad/page/tinkercad',
+    redirectTo: 'page/tinkercad',
     pathMatch: 'full'
   },
 ]
