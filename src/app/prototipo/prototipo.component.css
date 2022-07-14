@@ -1,7 +1,3 @@
-.panelUsuarios {
-    text-align: center;
-}
-
 #encabezado-carlos {
     font-family: 'americana-bold';
     font-size: 3vw;
@@ -31,28 +27,31 @@ p {
     bottom: 0px;
 }
 
-#portada {
-    width: 600px;
-    height: 480px;
-}
-
-.texto {
+#frase {
     font-family: 'americana-bold';
-    color: black;
-    font-size: 15px;
-    text-align: justify;
+    font-size: 50px;
 }
 
-#remarcado {
-    font-weight: bold;
+/* Estilos de la galeria */
+img{
+	max-width: 100%;
 }
 
-#espacio-top {
-    margin-top: 10rem;
+.gallery{
+	padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
 }
-
-#descuadrada {
-    align-items: bottom;
+.gallery img{
+	background-color: #ffffff;
+	padding: 0px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+#gallery-modal .modal-img{
+	width: 100%;
 }
 
 .gallery-item {
