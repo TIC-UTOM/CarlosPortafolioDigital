@@ -28,8 +28,8 @@ p {
 }
 
 #portada {
-    width: 600px;
-    height: 480px;
+    width: 900px;
+    height: auto;
 }
 
 .texto {
