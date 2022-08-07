@@ -5,6 +5,7 @@
 
 a {
     color: black;
+    text-decoration-line: none;
 }
 
 p {
@@ -23,4 +24,20 @@ p {
 #gitimage {
     position: sticky;
     bottom: 0px;
+}
+
+.perfil {
+    font-family: 'americana-bold';
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+.panelUsuarios {
+    text-align: center;
+}
+
+#frase {
+    font-family: 'americana-bold';
+    font-size: 40px;
 }

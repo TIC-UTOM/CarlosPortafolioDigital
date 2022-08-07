@@ -3,15 +3,15 @@
     $apellido = $_POST['apellido'];
 	$email = $_POST['correo'];
     $tel = $_POST['telefono'];
-    $mensaje = $_POST['message'];
+    $contenido = $_POST['message'];
 	$asunto = 'Formulario de Contacto';
-	$mensaje = "Nombre: ".$nombre." Apellido: ".$apellido."<br>
-        Email: $email<br>
-        Telefono: $telefono<br>
+	$mensaje = "Nombre: ".$nombre." Apellido: ".$apellido."
+        Email: $email
+        Telefono: $tel
         Mensaje:".$_POST['message'];
 
 
-	if(mail('tuEmail', $asunto, $mensaje)){
+	if(mail('konazu200@gmail.com', $asunto, $mensaje)){
 		echo "Correo enviado";
 	}
  ?>
