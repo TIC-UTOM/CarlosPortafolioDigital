@@ -60,17 +60,17 @@
     </div>
 
     <div class="col-md-4 d-flex justify-content-center align-items-center img-fluid mt-4"> <!-- style="background-color: aquamarine;" -->
-        <form>
+        <form method='POST' action='enviar.php'>
             <!-- 2 column grid layout with text inputs for the first and last names -->
             <div class="row row-form"> <!-- mb-1 -->
               <div class="col">
                 <div class="form-outline">
-                  <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="form-control"/>
+                  <input type="text" pattern="[a-zA-Z ]{2,30}" id="nombre" name="nombre" placeholder="Nombre" class="form-control"/>
                 </div>
               </div>
               <div class="col">
                 <div class="form-outline">
-                  <input type="text" id="apellido" name="apellido" placeholder="Apellido" class="form-control" />
+                  <input type="text" pattern="[a-zA-Z ]{2,30}" id="apellido" name="apellido" placeholder="Apellido" class="form-control" />
                 </div>
               </div>
             </div>
@@ -79,19 +79,19 @@
             <div class="row row-form"> <!-- mb-1 -->
               <div class="col">
                 <div class="form-outline">
-                  <input type="email" id="correo" name="correo" placeholder="Email" class="form-control"/>
+                  <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="correo" name="correo" placeholder="Email" class="form-control"/>
                 </div>
               </div>
               <div class="col">
                 <div class="form-outline">
-                  <input type="tel" id="telefono" name="telefono" placeholder="Número telefónico" class="form-control" />
+                  <input type="tel" pattern="[\(]?[\+]?(\d{2}|\d{3})[\)]?[\s]?((\d{6}|\d{8})|(\d{3}[\*\.\-\s]){3}|(\d{2}[\*\.\-\s]){4}|(\d{4}[\*\.\-\s]){2})|\d{8}|\d{10}|\d{12}" id="telefono" name="telefono" placeholder="Número telefónico" class="form-control" />
                 </div>
               </div>
             </div>
           
             <!-- Message input -->
             <div class="form-outline mb-3">
-              <textarea class="form-control" id="message" name="message" placeholder="Escribe tu Mensaje"rows="4"></textarea>
+              <textarea  pattern="[a-zA-Z ]{2,254}" class="form-control" id="message" name="message" placeholder="Escribe tu Mensaje"rows="4"></textarea>
             </div>
           
             <!-- Submit button -->
