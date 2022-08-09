@@ -14,6 +14,8 @@ import { EscritorioComponent } from './escritorio/escritorio.component';
 import { RoboticsComponent } from './robotics/robotics.component';
 import { TinkercadComponent } from './tinkercad/tinkercad.component';
 
+import { AvisoComponent } from './aviso/aviso.component';
+
 
 const routes: Routes = [
   {
@@ -61,6 +63,10 @@ const routes: Routes = [
     path: 'page/tinkercad',
     component: TinkercadComponent
   },
+  {
+    path: 'aviso',
+    component: AvisoComponent
+  },
   // Redirecciones de about
   {
     path: 'about/about',
@@ -75,6 +81,11 @@ const routes: Routes = [
   {
     path: 'about/design',
     redirectTo: 'design',
+    pathMatch: 'full'
+  },
+  {
+    path: 'about/aviso',
+    redirectTo: 'aviso',
     pathMatch: 'full'
   },
   {
@@ -129,6 +140,11 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
+    path: 'contact/aviso',
+    redirectTo: 'aviso',
+    pathMatch: 'full'
+  },
+  {
     path: 'contact/page/reddit',
     redirectTo: 'page/reddit',
     pathMatch: 'full' 
@@ -177,6 +193,11 @@ const routes: Routes = [
   {
     path: 'design/design',
     redirectTo: 'design',
+    pathMatch: 'full'
+  },
+  {
+    path: 'design/aviso',
+    redirectTo: 'aviso',
     pathMatch: 'full'
   },
   {
@@ -231,6 +252,11 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
+    path: 'page/reddit/aviso',
+    redirectTo: 'aviso',
+    pathMatch: 'full'
+  },
+  {
     path: 'page/reddit/page/reddit',
     redirectTo: 'page/reddit',
     pathMatch: 'full'
@@ -279,6 +305,11 @@ const routes: Routes = [
   {
     path: 'page/redes/design',
     redirectTo: 'design',
+    pathMatch: 'full'
+  },
+  {
+    path: 'page/redes/aviso',
+    redirectTo: 'aviso',
     pathMatch: 'full'
   },
   {
@@ -333,6 +364,11 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
+    path: 'page/prototipos/aviso',
+    redirectTo: 'aviso',
+    pathMatch: 'full'
+  },
+  {
     path: 'page/prototipos/page/reddit',
     redirectTo: 'page/reddit',
     pathMatch: 'full'
@@ -381,6 +417,11 @@ const routes: Routes = [
   {
     path: 'page/webs/design',
     redirectTo: 'design',
+    pathMatch: 'full'
+  },
+  {
+    path: 'page/webs/aviso',
+    redirectTo: 'aviso',
     pathMatch: 'full'
   },
   {
@@ -435,6 +476,11 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
+    path: 'page/escritorio/aviso',
+    redirectTo: 'aviso',
+    pathMatch: 'full'
+  },
+  {
     path: 'page/escritorio/page/reddit',
     redirectTo: 'page/reddit',
     pathMatch: 'full'
@@ -483,6 +529,11 @@ const routes: Routes = [
   {
     path: 'page/robotics/design',
     redirectTo: 'design',
+    pathMatch: 'full'
+  },
+  {
+    path: 'page/robotics/aviso',
+    redirectTo: 'aviso',
     pathMatch: 'full'
   },
   {
@@ -537,6 +588,11 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
+    path: 'page/tinkercad/aviso',
+    redirectTo: 'aviso',
+    pathMatch: 'full'
+  },
+  {
     path: 'page/tinkercad/page/reddit',
     redirectTo: 'page/reddit',
     pathMatch: 'full'
@@ -571,6 +627,63 @@ const routes: Routes = [
     redirectTo: 'page/tinkercad',
     pathMatch: 'full'
   },
+  //Redirecciones de aviso
+  {
+    path: 'aviso/about',
+    redirectTo: 'about',
+    pathMatch: 'full'
+  },
+  {
+    path: 'aviso/contact',
+    redirectTo: 'contact',
+    pathMatch: 'full'
+  },
+  {
+    path: 'aviso/design',
+    redirectTo: 'design',
+    pathMatch: 'full'
+  },
+  {
+    path: 'aviso/aviso',
+    redirectTo: 'aviso',
+    pathMatch: 'full'
+  },
+  {
+    path: 'aviso/page/reddit',
+    redirectTo: 'page/reddit',
+    pathMatch: 'full' 
+  },
+  {
+    path: 'aviso/page/redes',
+    redirectTo: 'page/redes',
+    pathMatch: 'full' 
+  },
+  {
+    path: 'aviso/page/prototipos',
+    redirectTo: 'page/prototipos',
+    pathMatch: 'full' 
+  },
+  {
+    path: 'aviso/page/webs',
+    redirectTo: 'page/webs',
+    pathMatch: 'full' 
+  },
+  {
+    path: 'aviso/page/escritorio',
+    redirectTo: 'page/escritorio',
+    pathMatch: 'full' 
+  },
+  {
+    path: 'aviso/page/robotics',
+    redirectTo: 'page/robotics',
+    pathMatch: 'full' 
+  },
+  {
+    path: 'aviso/page/tinkercad',
+    redirectTo: 'page/tinkercad',
+    pathMatch: 'full' 
+  },
+  
 ]
 
 @NgModule({
