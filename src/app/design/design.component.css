@@ -1,7 +1,6 @@
 #encabezado-carlos {
     font-family: 'americana-bold';
-    font-size: 3vw;
-
+    font-size: 240%;
 }
 
 a {
@@ -17,9 +16,14 @@ p {
 }
 
 #fijado {
-    position: sticky;
-    top: 0px;
-    background-color: #fafbe8;
+    background-color: #fafbe800; /* #fafbe8 */
+}
+
+@media only screen and (min-width: 768px) {
+    #fijado {
+        position: sticky;
+        top: 0px;
+    }
 }
 
 #gitimage {
@@ -29,7 +33,7 @@ p {
 
 #frase {
     font-family: 'americana-bold';
-    font-size: 50px;
+    font-size: 45px;
 }
 
 /* Estilos de la galeria */
@@ -56,4 +60,11 @@ img{
 
 .gallery-item {
     margin-bottom: 1vw;
+}
+
+.txt_descripcion {
+    font-family: 'americana-bold';
+    text-align: justify;
+    font-size: 20px;
+    color: black;
 }

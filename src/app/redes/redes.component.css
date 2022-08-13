@@ -1,6 +1,6 @@
 #encabezado-carlos {
     font-family: 'americana-bold';
-    font-size: 3vw;
+    font-size: 230%;
 
 }
 
@@ -17,9 +17,14 @@ p {
 }
 
 #fijado {
-    position: sticky;
-    top: 0px;
-    background-color: #fafbe8;
+    background-color: #fafbe800; /* #fafbe8 */
+}
+
+@media only screen and (min-width: 768px) {
+    #fijado {
+        position: sticky;
+        top: 0px;
+    }
 }
 
 #gitimage {
@@ -41,6 +46,8 @@ p {
 
 #remarcado {
     font-weight: bold;
+    font-family: 'americana-bold';
+    font-size: 15px;
 }
 
 #espacio-top {
