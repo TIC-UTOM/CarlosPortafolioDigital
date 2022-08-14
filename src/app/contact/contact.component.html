@@ -56,7 +56,7 @@
     </div>
 
     <div class="col-md-4 d-flex justify-content-center align-items-center img-fluid mt-3 px-4"> <!-- style="background-color: aquamarine;" -->
-        <form method='POST'>
+        <form id="form">
             <!-- 2 column grid layout with text inputs for the first and last names -->
             <div class="row row-form"> <!-- mb-1 -->
               <div class="col">
@@ -87,11 +87,11 @@
           
             <!-- Message input -->
             <div class="form-outline mb-3">
-              <textarea  pattern="[a-zA-Z ]{2,254}" class="form-control" id="message" name="message" placeholder="Escribe tu Mensaje"rows="4"></textarea>
+              <textarea  pattern="[a-zA-Z ]{2,254}" class="form-control" id="message" name="message" placeholder="Escribe tu Mensaje"rows="4" required></textarea>
             </div>
           
             <!-- Submit button -->
-            <button type="submit" class="btn btn-primary btn-block mb-4" onclick="sendEmail()">Enviar</button>
+            <input type="submit" id="button" class="btn btn-primary btn-block mb-4" value="Enviar">
         </form>
     </div>
 

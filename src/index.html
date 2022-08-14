@@ -10,30 +10,6 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico"> <!--Icon By: https://www.flaticon.es/autores/dimitry-miroliubov -->
-
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
-  <script type="text/javascript">
-    function sendEmail() {
-      Email.send({
-        Host: "smtp.gmail.com",
-        Username: "fleexile@gmail.com",
-        Password: "thpxzsmvnsswjyty",
-        To: 'konazu200@gmail.com',
-        From: $_POST['correo'],
-        Subject: $_POST['nombre'] + $_POST['apellido'],
-        Body: "Mi Correo Electrónico: " + $_POST['correo'] + "Mi teléfono: " + $_POST['telefono'] + "Mensaje: " + $_POST['message'],
-        Attachments: [
-          {
-            name: "image_mail.png",
-            path: "assets/image_mail.png"
-          }]
-      })
-        .then(function (message) {
-          alert("Mail has been sent successfully")
-        });
-    }
-  </script>
-
 </head>
 <body id="body">
   <app-root></app-root>
